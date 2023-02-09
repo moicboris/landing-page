@@ -1,0 +1,24 @@
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.container-icons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: snow;
+  gap: 16px;
+  padding:16px;
+}
+
+.container-icons p{
+  color: rgba(0, 117, 141, 1);
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+

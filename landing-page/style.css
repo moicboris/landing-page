@@ -1,0 +1,30 @@
+@import url("components/banner.css");
+@import url("components/text.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/container.css");
+@import url("components/icons.css");
+
+body{
+  margin: 0 auto;
+}
+
+@media (max-width: 960px){
+}
+
+@media (max-width: 720px){
+  .cards-2{
+    flex-wrap: wrap;
+  }
+
+  .banner h1{
+    color: red;
+  }
+}
+
+
+@media (max-width: 540px){
+  .cards-2{
+    flex-wrap: wrap;
+  }
+}
