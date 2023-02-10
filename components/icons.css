@@ -1,0 +1,22 @@
+.icons i{
+  color: snow;
+  border: 5px solid snow;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.icons a{
+  text-decoration: none;
+}
+
+.icons-social-media-with-p-footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-github-profile-with-p-footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

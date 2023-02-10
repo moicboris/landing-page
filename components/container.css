@@ -1,0 +1,133 @@
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.container-icons{
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 117, 141, 1);
+  gap: 16px;
+  padding:16px;
+  justify-content: space-around;
+}
+
+.container-icons p{
+  color: snow;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+
+
+.container-scroll-icon{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 16px;
+  margin: 24px;
+  font-size: 2rem;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  overflow-y: scroll;
+}
+
+.container-scroll-icon:hover{
+  padding: 32px;
+}
+
+.container-scroll-icon p{
+  color: snow;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+.container-scroll-icon a{
+  text-decoration: none;
+}
+
+.container-scroll-icon i{
+  color: snow;
+  margin: 0;
+}
+
+
+.container-navbar-top-page{
+  height: 8vh;
+  background-color: rgb(0, 117, 141);
+  position: fixed;
+  top:0px;
+  width: 100%;
+}
+
+
+
+.container-navbar-top-page h2{
+  margin: 0;
+  padding: 2px;
+}
+
+.container-navbar-top-page a{
+  text-decoration: none;
+}
+
+.container-navbar-top-page nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+}
+
+.container-navbar-top-page .logo-text{
+  color:snow;
+  font-size: 45px;
+}
+
+.container-navbar-top-page nav ul li{
+  color:snow;
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 25px;
+}
+
+.container-navbar-top-page nav ul li a{
+  color: snow;
+  text-decoration: none;
+  font-size: bold;
+}
+
+
+.container-navbar-top-page nav ul li a:hover{
+  color:rgba(72, 255, 252);
+  transition: 0,3s;
+}
+
+
+.container-navbar-top-page button{
+  border:none;
+  background: snow;
+  padding: 12px 30px;
+  border-radius: 16px;
+  color:rgba(0, 117, 141);
+  font-size: 18px;
+  transition: 0.4s;
+  font-weight: bold;
+}
+
+.container-navbar-top-page button:hover{
+  transform: scale(1.3);
+  cursor: pointer;
+}
